@@ -9,7 +9,7 @@
 # This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, express or implied.
 # See the License for the specific language governing permissions and limitations under the License.
 
-FROM amazonlinux:2
+FROM amazonlinux:2@sha256:f3a37f84f2644095e2c6f6fdf2bf4dbf68d5436c51afcfbfa747a5de391d5d62
 
 ENV RUBY_VERSION="2.6.5" \
  PYTHON_37_VERSION="3.7.4" \
